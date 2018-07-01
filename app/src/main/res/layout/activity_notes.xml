@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NotesActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="13dp"
+        android:text="Geoserver is an open-source java application for sharing, processing and editing geospatial data.
+It can connect information to web-based maps e.g OpenLayers and Google Maps, stores and displays data in form of vectors and rasters. It also can gets data from shapefiles, database (postgresql, oracle)."
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        tools:textColor="@android:color/background_dark"
+        android:padding="8dp"/>
+
+    <TextView
+        android:id="@+id/questionOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="40dp"
+        android:layout_marginEnd="42dp"
+        android:onClick="openQuestionOne"
+        android:text="Start Quiz"
+        android:textColor="@android:color/black"
+        android:textSize="28sp"
+        tools:layout_editor_absoluteX="233dp"
+        tools:layout_editor_absoluteY="325dp" />
+
+
+</RelativeLayout>
